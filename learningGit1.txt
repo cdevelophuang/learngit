@@ -1,3 +1,9 @@
+mkdir git-filename //创建一个仓库
+cd git-filename
+git init //初始化仓库
+git add "file.type" //向暂存区添加文件
+git commit -m "First commit" //保存仓库的历史记录,冒号后面为此次添加文件的说明信息
+
 git reset --hard commit_id //回到以前的版本
 git reset --hard HEAD^ //HEAD为当前版本，HEAD^为上个版本，上上个版本为HEAD^^,前100个版本为HEAD~100
 git log //查看提交历史，以便确定回退到哪个版本
